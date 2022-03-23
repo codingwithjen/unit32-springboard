@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const ExpressError = require('./expressError');
-const { getNums, getMean, getMedian, getMode } = require('./helper');
+const { getNums, getMean, getMedian, getMode } = require('./helpers');
 
 // Tell Express to parse request bodies for either form data or JSON:
 app.use(express.json());
